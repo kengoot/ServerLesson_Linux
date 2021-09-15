@@ -1,0 +1,94 @@
+    1  cd /root
+    2  pwd
+    3  mkdir server_lesson && cd server_lesson
+    4  pwd
+    5  yum update -y && yum -y install git
+    6  git version
+    7  git init
+    8  ls
+    9  touch first.txt
+   10  mkdir -p linux_practice1/public
+   11  ls
+   12  cd linux_practice1/public
+   13  ls
+   14  touch index.php
+   15  ls
+   16  cp index.php index_bk.php
+   17  ls
+   18  cd..
+   19  cd ../
+   20  ls
+   21  cp -r public tmp
+   22  ls
+   23  ls tmp
+   24  rm tmp/index_bk.php
+   25  ls tmp
+   26  ls public
+   27  touch README.md
+   28  ls
+   29  vi README.php
+   30  cd
+   31  cd /.vimrc
+   32  ls
+   33  cd server_lesson
+   34  ls
+   35  cd linux_practice1
+   36  ls
+   37  vi README.php
+   38  vi README.php
+   39  cat README.php
+   40  vi README.php
+   41  ls
+   42  rm README.php
+   43  vi README.php
+   44  vi ~/.vimrc
+   45  cat ~/.vimrc
+   46  ls ~
+   47  ls ~/
+   48  ls -a ~/
+   49  vi README.php
+   50  ls
+   51  vi README.md
+   52  ls
+   53  cat README.md
+   54  cd ../
+   55  mkdir linux_practice2
+   56  cd linux_practice2
+   57  mkdir documents
+   58  cd documents
+   59  touch gizumo{01..50}.md
+   60  ls
+   61  cd ../
+   62  mkdir trash
+   63  ls
+   64  cd documents
+   65  cd ../
+   66  mv documents/gizumo{20..40}.md trash
+   67  ls
+   68  ls trash
+   69  ls documents
+   70  cd ../
+   71  ls
+   72  mv linux_practice1/README.php README.php
+   73  mv linux_practice1/README.php server_lesson
+   74  ls
+   75  cd linux_practice1
+   76  ls
+   77  cd ../
+   78  mv linux_practice1/README.php README.md
+   79  mv linux_practice1/README.md README.md
+   80  ls
+   81  exec
+   82  exit
+   83  ls
+   84  cd root
+   85  ls
+   86  cd server_lesson/
+   87  ls
+   88  cd linux_practice2
+   89  ls
+   90  vi .gitignore
+   91  ls
+   92  vi .gitignore
+   93  cat .gitignore
+   94  history >> exec_command.log
